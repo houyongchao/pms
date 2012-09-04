@@ -10,4 +10,10 @@ public class DateUtil {
 		Date date = new Date();
 		return sdf.format(date);
 	}
+	public static String getYYYY(){
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+		Date date = new Date();
+		return sdf.format(date);
+
+	}
 }
